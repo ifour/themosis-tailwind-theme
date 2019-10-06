@@ -9,6 +9,24 @@ Development team
 ----------------
 The framework was created by [Julien Lambé](http://www.themosis.com/), who continues to lead the development.
 
+Tailwind Set Up
+---------------
+
+Additionally this starter theme includes a Tailwind CSS starter point.  Please note the woocommerce base include from the main Themosis theme has been removed for now.
+
+Installation
+------------
+
+Composer require something...
+
+Within your theme folder install the theme assets with NPM or Yarn:
+
+`npm install`
+or
+`yarn`
+
+The `webpack.mix.js` file has been updated to use the generated Tailwind `theme.css` file within the assets directory. An empty `tailwind.config.js` has also been included.  Refer to the [Tailwind Docs](https://tailwindcss.com/docs/configuration) for additional configuration options.
+
 Contributing
 ------------
 Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
@@ -16,8 +34,3 @@ Any help is appreciated. The project is open-source and we encourage you to part
 - Reporting a bug issue
 - Suggesting features
 - Sending a pull request with code fix or feature
-- Following the projects on [GitHub](https://github.com/themosis)
-- Following us on Twitter: [@Themosis](https://twitter.com/Themosis)
-- Sharing the project around your community
-
-For details about contributing to the framework, please check the [contribution guide](http://framework.themosis.com/docs/1.3/contributing/).

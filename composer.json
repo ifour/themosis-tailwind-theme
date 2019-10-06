@@ -1,13 +1,18 @@
 {
-  "name": "themosis/theme",
-  "description": "The Themosis framework boilerplate theme.",
-  "keywords": ["themosis", "framework", "WordPress", "theme"],
+  "name": "ifour/themosis-tailwind-theme",
+  "description": "The Themosis framework boilerplate theme with Tailwind included.",
+  "keywords": ["themosis", "framework", "WordPress", "theme", "tailwind"],
   "license": "GPL-2.0-or-later",
   "authors":[
     {
       "name": "Julien Lambé",
       "email": "julien@themosis.com",
       "homepage": "https://www.themosis.com/"
+    },
+    {
+      "name": "Simon Bennett",
+      "email": "simon@ifour.co.uk",
+      "homepage": "https://ifour.co.uk/"
     }
   ],
   "type": "wordpress-theme",

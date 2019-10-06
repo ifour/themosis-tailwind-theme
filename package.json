@@ -1,7 +1,7 @@
 {
-  "name": "themosis-theme",
-  "version": "2.0.0",
-  "description": "Themosis framework boilerplate theme.",
+  "name": "themosis-tailwind-theme",
+  "version": "1.0.0",
+  "description": "Themosis framework boilerplate theme with tailwind starter.",
   "scripts": {
     "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -11,15 +11,15 @@
   "author": "Themosis",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/themosis/theme/issues"
+    "url": "https://github.com/ifour/themosis-tailwind-theme"
   },
-  "homepage": "https://github.com/themosis/theme#readme",
+  "homepage": "https://github.com/ifour/themosis-tailwind-theme#readme",
   "devDependencies": {
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.0",
+    "postcss-import": "^12.0.1",
     "resolve-url-loader": "2.3.1",
-    "sass": "^1.17.3",
-    "sass-loader": "7.*",
+    "tailwindcss": "^1.1.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
